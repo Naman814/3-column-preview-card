@@ -1,0 +1,71 @@
+
+body{
+    color:hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 700px;
+
+}
+
+.bound{
+    padding:2rem;
+    margin:0.5rem;
+}
+
+.outer{
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:50vw;
+
+
+}
+
+.card1{
+    height:30rem;
+    width:18rem;
+    justify-content: left;
+    background-color: hsl(31, 77%, 52%);
+}
+
+.card2{
+    height:30rem;
+    width:18rem;
+    justify-content: left;
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.card3{
+    height:30rem;
+    width:18rem;
+    justify-content: left;
+    background-color: hsl(179, 100%, 13%);
+}
+
+h1{
+    font-size: 2.5rem;
+    color:hsla(0, 0%, 100%, 0.75);
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400px;
+}
+
+button{
+    height:3rem;
+    width: 9rem;
+    margin-top:6rem;
+    border-radius:50px 50px 50px 50px;
+    background-color:azure;
+}
+
+
+@media (max-width:700px){
+    .outer{
+        align-items: center;
+        flex-direction: column;
+        height:auto;
+    }
+}
